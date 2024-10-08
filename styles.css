@@ -1,0 +1,331 @@
+* {
+    background-color: orangered;
+    font-family: Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+  }
+  a:link {
+    text-decoration: none;
+  }
+ 
+  a:visited {
+    text-decoration: none;  
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  a:active {
+    text-decoration: none;
+  }
+  .a-nav:hover {
+    border-bottom: 10px solid #00754a;  
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .navbuttons {
+    border-radius: 15px;
+    padding: 6px;
+    font-weight: bold;
+}
+.maintitles {
+  font-weight: bold;
+  font-size: x-large;
+}
+.storelocator:hover {
+  color: aqua;
+}
+#login:hover {
+    color: white;
+    cursor: pointer;
+  }
+  #join {
+    background-color: white(248, 9, 9);
+    color: white;
+  }
+  #join:hover {
+    cursor: pointer;
+}
+.div1 {
+    background-color: violet;
+    width: auto;
+    margin: 0 0 20px 0;
+    display: flex;
+  }
+  .div1a {
+    background-color: rgb(30, 57, 50);
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    text-align: center;
+  }
+  .div1a > * {
+    background-color: rgb(30, 57, 50);
+    color: white;  
+    width: auto;
+  }
+  .div2 {  
+    background-color: rgb(247, 183, 144);  
+    width: 100%;
+    margin: 0 0 20px 0;
+    display: flex;
+  }
+  .div2a {
+    background-color: rgb(247, 183, 144);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;  
+  }
+  .div2a > * {
+    background-color: rgb(247, 183, 144);
+    color: black;
+    width: 100%;     
+  }
+  .div3 {  
+    background-color: rgb(30, 57, 50);
+    width: 100%;
+    margin: 0 0 20px 0;
+    display: flex;
+  }
+  .div3a {
+    background-color: rgb(30, 57, 50);
+    width: 100%;  
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    text-align: center;  
+  }
+  .div3a > * {
+    background-color: rgb(30, 57, 50);
+    color: white;
+    width: 100%;  
+  }
+  .div4 {
+    background-color: rgb(196, 165, 109);
+    width: 100%;
+    margin: 0 0 20px 0;
+    display: flex;
+  }
+  .div4a {
+    background-color: rgb(196, 165, 109);
+    width: 100%;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    text-align: center;  
+  }
+  .div4a > * {
+    background-color: rgb(196, 165, 109);
+    color: white;
+    width: 100%;  
+  }
+  .div5 {
+    background-color: rgb(66, 143, 180);
+    width: 100%;
+    margin: 0 0 20px 0;
+    display: flex;
+  }
+  .div5a {
+    background-color: rgb(66, 143, 180);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .div5a > * {
+    background-color: rgb(66, 143, 180);
+    color: white;
+    width: 100%;
+  }
+  .div6 {
+    background-color: rgb(30, 57, 50);
+    width: 100%;
+    margin: 0 0 20px 0;
+    display: flex;
+  }
+  .div6a {
+    background-color: rgb(30, 57, 50);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .div6a > * {
+    background-color: rgb(30, 57, 50);
+    color: white;
+    width: 100%;
+  }
+  .div7 {
+    background-color: rgb(8, 65, 86);
+    width: 100%;
+    margin: 0 0 20px 0;
+    display: flex;
+  }
+  .div7a {
+    background-color: rgb(8, 65, 86);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .div7a > * {
+    background-color: rgb(8, 65, 86);
+    color: white;
+    width: 100%;
+  }
+  .div8 {
+    width: 100%;  
+    margin: 0 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .div8a {
+    background-color: rgb(52, 51, 51);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 10px;
+  }
+  .div8a > * {
+    background-color: rgb(52, 51, 51);
+    color: white;
+    width: 100%;
+  }
+  .div8b {
+    background-color: rgb(8, 65, 86);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 10px;
+  }
+  .div8b > * {
+    background-color: rgb(8, 65, 86);
+    color: white;
+    width: 100%;
+  }
+  .mainbuttons {
+    border-radius: 15px;
+    padding: 6px;
+    font-weight: bold;
+    border-color: white;
+    display: inline-block;
+    max-width: fit-content;
+    text-align: center;
+  }
+  #mainimage1 {
+    background-color: rgb(30, 57, 50);
+  }
+  #mainimage2 {
+    background-color: rgb(247, 183, 144);
+  }
+  #mainimage3 {
+    background-color: rgb(30, 57, 50);
+  }
+  #mainimage4 {
+    background-color: rgb(196, 165, 109);
+  }
+  #mainimage5 {
+    background-color: rgb(66, 143, 180);
+  }
+  #mainimage6 {
+    background-color: rgb(30, 57, 50);
+  }
+  #mainimage7 {
+    background-color: rgb(8, 65, 86);
+    width: 100%;
+  }
+  #mainimage8 {
+    background-color: rgb(52, 51, 51);
+    width: 100%;
+  }
+  
+  #button3a, #button6a {
+    background-color: rgb(30, 57, 50);
+    color: white;
+  }
+  #button7a, #button8b {
+    background-color: rgb(8, 65, 86);
+    color: white;
+  }
+  #button8a {
+    background-color: rgb(52, 51, 51);
+    color: white;
+  }
+  #button3a:hover, #button6a:hover {
+    background-color: rgb(40, 75, 66);
+  }
+  #button7a:hover, #button8b:hover {
+    background-color: rgb(52, 51, 51);
+  }
+  #button8a:hover {
+    background-color: rgb(70, 68, 68);
+  }
+  .main-images {
+    width: 50%;
+  }
+  .left-nav, .right-nav {
+    display: flex;
+    align-items: center;
+  }
+  .left-nav {
+    gap:  20px;
+  }
+  .right-nav {
+    gap: 20px;
+  }
+  .footer1 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .footer1divs {
+    padding: 10px;
+  }
+  .footer2 {
+    text-align: center;
+  }
+  .footer2 ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    width: 100%;  
+    gap:  25px;
+  }
+  .footerlinks {
+    color: rgb(156, 152, 152);
+  }
+  .footerlinks:hover {
+    color: gray;
+  }
+  .socialmedia {
+    width: 40px;
+    margin-right: 20px;
+  }
+  .socialmedia:hover {
+    filter: opacity(50%);  
+  }
+  .legal {
+    color: gray;
+  }
